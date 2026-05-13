@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),// añadimos el tailwind
-  ],
+],
+  base: "/pokedex-react/",
 })
